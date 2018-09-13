@@ -11,6 +11,8 @@ class Point {
 	int y;
 	
 	public:
+		Point();
+		Point(int xAxis, int yAxis);
 		int getX();
 		void setX(int xAxis);
 		int getY();
