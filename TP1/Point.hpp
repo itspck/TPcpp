@@ -7,9 +7,16 @@
 class Point {
    // par défaut, tout est privé dans une "class"
 
-   int x;
-
- public:
-  int getX();
-
+	int x;
+	int y;
+	
+	public:
+		int getX();
+		void setX(int xAxis);
+		int getY();
+		void setY(int yAxis);
+		void deplacerDe(int Xoffset = 0, int Yoffset = 0);
+		void deplacerVers(int Xoffset, int Yoffset);
 };
+
+#endif
