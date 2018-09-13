@@ -9,10 +9,13 @@ class Point {
 
 	int x;
 	int y;
+	static int compteur;
+
 	
 	public:
 		Point();
 		Point(int xAxis, int yAxis);
+		static int getCpt();
 		int getX();
 		void setX(int xAxis);
 		int getY();
